@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cairo;
+    font-weight: 500;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border-color: #bdbebe !important;
+    font-size: 20px;
+    overflow: auto;
+}
+
+body {
+    background-color: black;
+    color: #fff;
+}
+
+#conteiner {
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+}
+
+#conteiner {
+    font-size: 35px;
+    display: flex;
+    gap: 5px;
+}
+
+#textarea-make {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#textarea-make div {
+    text-align: start;
+    font-size: 25px;
+}
+
+#textarea-make button {
+    margin-top: 5px;
+}
+
+#textarea-title {
+    width: 450px;
+    height: 60px;
+    resize: none;
+    padding: 10px;
+    margin: 0 0px 5px 0;
+}
+
+#textarea-post {
+    width: 450px;
+    height: 503.5px;
+    resize: none;
+    padding: 10px;
+}
+
+#textarea-post:focus,
+#textarea-title {
+    border: none;
+    outline: none;
+}
+
+#textarea-make {
+    display: flex;
+    flex-direction: column;
+}
+
+#textarea-show div {
+    text-align: start;
+    font-size: 25px;
+}
+
+#saved {
+    width: 450px;
+    height: 615px;
+    padding: 10px;
+    color: #000;
+    background-color: #fff;
+    overflow-y: auto;
+}
+
+#saved>div {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    margin: 0 0 5px 0px;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+
+
+#saved>div div {
+    display: flex;
+    gap: 5px;
+}
+
+#saved>div div:first-child {
+    cursor: pointer;
+}
+
+button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff
+}
